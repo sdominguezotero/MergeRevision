@@ -13,7 +13,7 @@ public class ExamenCOD {
      */
     public static void main(String[] args) {
  int iN = 11;
- System.out.println("Siempre acertamos.");
+ System.out.println("Siempre tenemos queso.");
             	if (metodoMio(iN))
 System.out.println("Es numero primo.");
 else
