@@ -3,13 +3,13 @@ package examencod;
 
 /**
  *
- * @author TheGÃ¶dric94
+ * @author TheGödric94
  */
 public class ExamenCOD {
 
     /**
      * @param args the command line arguments
-     * @version VersiÃ³n 8.1.2
+     * @version Versión 8.1.2
      */
     public static void main(String[] args) {
  int iN = 11;
@@ -21,12 +21,14 @@ else
           	 
 for (int x=2;x<1000;x++) {
 if (metodoMio(x))
-System.out.print(x + " ");                         	 
+System.out.print(x + " ");                         
+
+System.out.print("Commit 3 master");
 }         	 
 	}
 
     /**
-     *El mÃ©todo va sumandole 1 a J hasta que sea igual a variable
+     *El método va sumandole 1 a J hasta que sea igual a variable
      * @param variable
      * @return Devuelve el valor de aux (True o False)
      */
