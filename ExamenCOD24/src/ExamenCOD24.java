@@ -13,7 +13,7 @@ public class ExamenCOD {
      */
     public static void main(String[] args) {
  int iN = 11;
- System.out.println("Siempre acertamos.");
+ System.out.println("Siempre tenemos pavo.");
             	if (metodoMio(iN))
 System.out.println("Es numero primo.");
 else
@@ -25,6 +25,8 @@ System.out.print(x + " ");
 
 System.out.print("Commit 3 master");
 }         	 
+
+System.out.print("Commit 3 Branch 2");
 	}
 
     /**
@@ -33,6 +35,7 @@ System.out.print("Commit 3 master");
      * @return Devuelve el valor de aux (True o False)
      */
     public static boolean metodoMio(int variable){
+        
 int j = 2;
 boolean aux=true;
 while ((aux) && (j!=variable)){
