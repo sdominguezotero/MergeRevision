@@ -23,6 +23,8 @@ for (int x=2;x<1000;x++) {
 if (metodoMio(x))
 System.out.print(x + " ");                         	 
 }         	 
+
+System.out.print("Commit 3 Branch 2");
 	}
 
     /**
@@ -31,6 +33,7 @@ System.out.print(x + " ");
      * @return Devuelve el valor de aux (True o False)
      */
     public static boolean metodoMio(int variable){
+        
 int j = 2;
 boolean aux=true;
 while ((aux) && (j!=variable)){
